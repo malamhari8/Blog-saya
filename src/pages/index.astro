@@ -1,24 +1,37 @@
 ---
-
+import "../styles/global.css";
 ---
 
 <html lang="id">
   <head>
     <meta charset="utf-8" />
     <title>Samudra</title>
-
-    <style>
-      body {
-        font-family: sans-serif;
-      }
-    </style>
   </head>
   <body>
-    <h1>Samudra</h1>
+    <header class="site-header">
+      <span class="brand">samudra</span>
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
 
-    <h2>Tulisan Saya</h2>
-    <ul>
-      <li><a href="/tulisan-pertama">Mengatakan tidak pada mesede</a></li>
-    </ul>
+    <div class="container">
+      <h1>Selamat datang...</h1>
+      <ul>
+        <li>
+          <a href="/bagaimana-masa-depan-kita-semua"
+            >Bagaimana Masa Depan Kita Semua?</a
+          >
+          <span class="date">2026-06-08</span>
+        </li>
+
+        <li>
+          <a href="/tulisan-pertama">Tulisan pertama</a>
+          <span class="date">2026-06-08</span>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

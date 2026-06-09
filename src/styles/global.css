@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    color: #1a1a1a;
+    background-color: #f9f7f4;
+    padding: 30px 150px;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    left: 0;
+    font-weight: 900;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+.navbar {
+    display: flex;
+    gap: 80px;
+    background-color: #1a1a1a;
+    padding: 8px 70px;
+    border-radius: 999px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 4px 20px;
+    border-radius: 999px;
+    transition: background-color 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 4;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.2em;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.date {
+    display: block;
+    font-size: 0.8em;
+    color: #aaa;
+    margin-top: 2px;
+}
