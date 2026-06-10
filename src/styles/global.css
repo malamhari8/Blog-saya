@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.8;
@@ -21,12 +25,14 @@ body {
     font-weight: 900;
     font-size: 1.1rem;
     letter-spacing: 0.05em;
+    cursor: pointer;
+    
 }
 
 .navbar {
     display: flex;
     gap: 80px;
-    background-color: #1a1a1a;
+    background-color: #3D2A20;
     padding: 8px 70px;
     border-radius: 999px;
 }
@@ -50,12 +56,23 @@ body {
     padding: 0 20px;
 }
 
+.title {
+    text-align: center;
+    margin-bottom: 80px;
+}
 
 h1 {
     font-size: 2rem;
     font-weight: 800;
-    line-height: 4;
     text-align: center;
+    color: #2B2A29;
+}
+
+.description {
+    color: #aaa;
+    font-size: 0.95rem;
+    margin-top: -15px;
+    
 }
 
 p {

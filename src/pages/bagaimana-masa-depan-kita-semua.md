@@ -1,5 +1,6 @@
 ---
 title: "Bagaimana Masa Depan Kita Semua?"
+description: "Refleksi tentang generasi baru yang hidup di dunia yang makin sempit."
 date: 2026-06-08
 layout: ../layouts/Layout.astro
 ---
