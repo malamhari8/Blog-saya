@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 html {
     overflow-y: scroll;
+    margin-bottom: 0;
 }
 
 body {
@@ -9,7 +11,8 @@ body {
     line-height: 1.8;
     color: #1a1a1a;
     background-color: #f9f7f4;
-    padding: 30px 150px;
+    padding: 30px 150px 0;
+    margin-bottom: 0;
 }
 
 .site-header {
@@ -26,7 +29,7 @@ body {
     font-size: 1.1rem;
     letter-spacing: 0.05em;
     cursor: pointer;
-    
+
 }
 
 .navbar {
@@ -56,6 +59,8 @@ body {
     padding: 0 20px;
 }
 
+
+/* Title sampai thumbnail */
 .title {
     text-align: center;
     margin-bottom: 80px;
@@ -69,15 +74,29 @@ h1 {
 }
 
 .description {
-    color: #aaa;
-    font-size: 0.95rem;
+    font-family: "lora";
+    font-size: 1rem;
     margin-top: -15px;
-    
 }
+
+.thumbnail {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: blue;
+}
+
+/* Title sampai thumbnail */
+
+
+
 
 p {
     margin-bottom: 1.2em;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 ul {
@@ -103,4 +122,16 @@ a:hover {
     font-size: 0.8em;
     color: #aaa;
     margin-top: 2px;
+}
+
+.site-footer {
+    background-color: #3D2A20;
+    /* atau warna apapun */
+    color: #eee;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+    /* hanya sudut atas yang melengkung */
+    margin-top: 20rem;
+    margin-bottom: 0;
 }

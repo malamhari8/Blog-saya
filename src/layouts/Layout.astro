@@ -37,8 +37,23 @@ const { frontmatter } = Astro.props;
             <p class="description">{frontmatter.description}</p>
           )
         }
+
+        {
+          frontmatter?.image && (
+            <img
+              src={frontmatter.image}
+              alt={frontmatter.title ?? "Thumbnail"}
+              class="thumbnail"
+            />
+          )
+        }
       </div>
+
       <slot />
     </div>
   </body>
+
+  <footer class="site-footer">
+    <p>© 2026 samudra</p>
+  </footer>
 </html>

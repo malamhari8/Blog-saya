@@ -3,9 +3,10 @@ title: "Bagaimana Masa Depan Kita Semua?"
 description: "Refleksi tentang generasi baru yang hidup di dunia yang makin sempit."
 date: 2026-06-08
 layout: ../layouts/Layout.astro
+image: "/images/Gez-Cari-Kerja.jpg"
 ---
 
-Bagaimana masa depan kita semua nantinya...?
+Bagaimana masa depan kita semua nantinya?
 
 Terutama generasi baru?
 
