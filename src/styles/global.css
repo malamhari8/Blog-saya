@@ -74,9 +74,9 @@ h1 {
 }
 
 .description {
-    font-family: "lora";
     font-size: 1rem;
     margin-top: -15px;
+    font-family: "inter";
 }
 
 .thumbnail {
@@ -97,6 +97,7 @@ h1 {
 p {
     margin-bottom: 1.2em;
     font-size: 1.1rem;
+    font-family: "lora";
 }
 
 ul {
@@ -128,10 +129,14 @@ a:hover {
     background-color: #3D2A20;
     /* atau warna apapun */
     color: #eee;
-    padding: 0.5rem;
+    padding: 1px;
     text-align: center;
     border-radius: 50px 50px 0 0;
     /* hanya sudut atas yang melengkung */
     margin-top: 20rem;
     margin-bottom: 0;
+}
+
+.site-footer p {
+    font-size: 1rem;
 }
